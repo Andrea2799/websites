@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <title>Orionis</title>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+  </head>
+  <body class="is-preload landing">
+    <div id="page-wrapper">
+
+      <!-- Header -->
+      
+        <header id="header">
+          <h1 id="logo"><a href="index.html">Orionis</a></h1>
+          <nav id="nav">
+            <ul>
+              <li><a href="index.html">Inicio</a></li>
+              <li>
+                <a href="#">Servicios</a>
+                <ul>
+                  <li><a href="ingreso_producto.html">Ingresos de productos</a></li>
+                  <li><a href="ingreso_ventas.html">Ingreso de ventas</a></li>
+                  <li><a href="ingreso_cliente.html">Ingreso de clientes</a></li>
+                  <li><a href="ingreso_proveedores.html">Ingreso de proveedores</a></li>
+                  <li><a href="ingreso_empleados.html">Ingreso de empleados</a></li>
+                  
+                </ul>
+              </li>
+              <li><a href="#" class="button primary">Entrar</a></li>
+            </ul>
+          </nav>
+        </header>
+
+      <!-- five -->
+        <section id="five" class="wrapper ">
+           
+          <div class="container">
+           <header>
+              <h2>Formulario Proveedor </h2>
+              <p>Porfavor diligencias formulario</p>
+            </header>
+            <form action ="ingresar.php" method="post">
+              
+                <div class=" row gtr-uniform gtr-200 ">
+                  <div class="form-group">
+                        <label class="control-label" for="producto">Id Proveedor:</label>
+                        <input type ="text" class ="form-control" name ="txtproducto" placeholder="Digite id del proveedor">
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label" for="stock">Nombre</label>
+                        <input type ="text" class ="form-control" name ="txtstock" placeholder="Digite el nombre">
+                    </div>
+                     <div class="form-group">
+                        <label class="control-label" for="nombre">Telefono</label>
+                        <input type ="text" class ="form-control" name ="txtnombre1" placeholder="Digite el telefono/cel">
+                    </div>
+                     <div class="form-group">
+                        <label class="control-label" for="precio">Direccion</label>
+                        <input type ="text" class ="form-control" name ="txtprecio1" placeholder="Digite la direccion">
+                    </div>
+                    
+                    <div class="form-group">
+                    <div class="col-4 col-12-xsmall">
+                    <input type="submit" value="Guardar" class="fit primary" /></div>
+                    </div>
+
+                    <a href="mostrar.php" class="btn btn-secondary">Mostrar Registros</a>
+                    <a href="buscar.php" class="btn btn-secondary">Buscar Registros</a>
+                    <a href="foreliminar.html" class="btn btn-secondary">Eliminar Registros</a>
+                    <a href="foractualizar.html" class="btn btn-secondary">Actualizar Registros</a>
+
+                </div>     
+            </form>
+          </div>
+        </section>
+    </div>
+
+    <!-- Scripts -->
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/jquery.scrolly.min.js"></script>
+      <script src="assets/js/jquery.dropotron.min.js"></script>
+      <script src="assets/js/jquery.scrollex.min.js"></script>
+      <script src="assets/js/browser.min.js"></script>
+      <script src="assets/js/breakpoints.min.js"></script>
+      <script src="assets/js/util.js"></script>
+      <script src="assets/js/main.js"></script>
+
+  </body>
+</html>

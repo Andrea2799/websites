@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <title>Orionis</title>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+  </head>
+  <body class="is-preload landing">
+    <div id="page-wrapper">
+
+      <!-- Header -->
+      
+        <header id="header">
+          <h1 id="logo"><a href="index.html">Orionis</a></h1>
+          <nav id="nav">
+            <ul>
+              <li><a href="index.html">Inicio</a></li>
+              <li>
+                <a href="#">Servicios</a>
+                <ul>
+                  <li><a href="ingreso_producto.html">Ingresos de productos</a></li>
+                  <li><a href="ingreso_ventas.html">Ingreso de ventas</a></li>
+                  <li><a href="ingreso_cliente.html">Ingreso de clientes</a></li>
+                  <li><a href="ingreso_proveedores.html">Ingreso de proveedores</a></li>
+                  <li><a href="ingreso_empleados.html">Ingreso de empleados</a></li>
+                  
+                </ul>
+              </li>
+              <li><a href="#" class="button primary">Entrar</a></li>
+            </ul>
+          </nav>
+        </header>
+
+      <!-- five -->
+        <section id="five" class="wrapper ">
+           
+          <div class="container">
+           <header>
+              <h2>Formulario de articulos</h2>
+              <h3>Eliminar: </h3>
+              
+            </header>
+            <form action ="eliminar.php" method="post">
+              
+                <div class=" row gtr-uniform gtr-200 ">
+                  <div class="form-group">
+                        <label class="control-label" for="producto">ID de productos:</label>
+                        <input type ="text" class ="form-control" name ="txtproducto" placeholder="Digite # de productos">
+                    </div>
+                    </div> 
+                    <div class=" row"><p></p></div>
+                    <div class=" row">
+                    <div class="form-group">
+                    <div class="col-4 col-12-xsmall">
+                    <input type="submit" value="Eliminar" class="fit primary" /></div>
+                    </div>
+
+                    <a href="ingreso_producto.html" class="btn btn-secondary">Ingresar Registro</a>
+                    <a href="mostrar.php" class="btn btn-secondary">Mostrar Registros</a>
+                    <a href="forbuscar.html" class="btn btn-secondary">Buscar Registros</a>
+                    <a href="foractualizar.html" class="btn btn-secondary">Actualizar Registros</a>
+                    </div>
+
+                    
+            </form>
+          </div>
+        </section>
+    </div>
+
+    <!-- Scripts -->
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/jquery.scrolly.min.js"></script>
+      <script src="assets/js/jquery.dropotron.min.js"></script>
+      <script src="assets/js/jquery.scrollex.min.js"></script>
+      <script src="assets/js/browser.min.js"></script>
+      <script src="assets/js/breakpoints.min.js"></script>
+      <script src="assets/js/util.js"></script>
+      <script src="assets/js/main.js"></script>
+
+  </body>
+</html>
